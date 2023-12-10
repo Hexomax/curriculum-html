@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.data:first-child {
+    background-color: rgb(53, 71, 105);
+    grid-row: 1 / span 100 ;
+    font-size: 15px;
+    padding-inline-start: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.data  h1 {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h2 {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+h3, p , address {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+.name  h1 {
+    background-color:  rgb(253, 253, 253);
+    grid-row: 1;
+    height: 60px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 12px 12px 10px;
+}
+
+.experience {
+    background-color: rgb(253, 253, 253);
+    grid-row: 2 / span 99;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.experience h1 {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 8px 10px;
+}
+
+.masked-element {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 3px;
+    clip-path: circle(100px);
+}

@@ -61,6 +61,6 @@ h3, p , address {
     display: block;
     margin: 0 auto;
     margin-top: 5px;
-    padding: 3px;
-    clip-path: circle(100px);
+    padding: 2px;
+    clip-path: circle(85px);
 }

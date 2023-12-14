@@ -35,6 +35,11 @@ h3, p , address {
     font-size: 18px;
 }
 
+a {
+    text-decoration: underline;
+    color:rgb(255, 255, 255);
+}
+
 
 .name  h1 {
     background-color:  rgb(253, 253, 253);

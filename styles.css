@@ -12,7 +12,7 @@ body {
 }
 
 .data:first-child {
-    background-color: rgb(53, 71, 105);
+    background-color: rgb(101, 110, 127);
     grid-row: 1 / span 100 ;
     font-size: 15px;
     padding-inline-start: 15px;

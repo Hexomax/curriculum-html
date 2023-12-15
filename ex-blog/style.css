@@ -1,28 +1,84 @@
+body {
+    background: #adcaff;
+}
+
 .container {
     display: flex;
     flex-direction: row;
     padding: 10px;
-    background: cadetblue;
+    background: rgb(201, 201, 201);
     text-align: center;
     font-size: 16px;
-    max-width: 800px;
-    margin: auto;
+    max-width: auto;
     border: 1px solid #ccc;
+    flex-wrap: wrap;
 }
 
 .return {
-    background: rgb(195, 228, 229);
+    background: rgb(200, 200, 200);
     text-align: center;
     font-size: 16px;
+    margin: 10px 0 0 0;
+    justify-content: space-between;
+    flex: 0;
 }
 
 .title-blog {
-    background: aqua;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    padding-right: 100px;
+    padding-top: 150px;
+    height: 185px;
+    flex: 1;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-image: url("entre-fort.jpg");
 }
 
 .menu {
+    justify-content: right;
     text-align: right;
-    background: blueviolet;
+    margin: 10px 7px 0 600px;
+    background: rgb(200, 200, 200);
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu:hover{
+    color: rgb(255, 148, 60);
+}
+
+.contact {
+    background: #d34343;
+    text-align: center;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+
+.link-article {
+    display: flex;
+    background: #d34343;
+    width: auto;
+    height: ;
+    padding: 20px 0px 20px 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
 }

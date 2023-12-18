@@ -1,17 +1,23 @@
 body {
-    background: #adcaff;
+    background: #363d4a;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     padding: 10px;
-    background: rgb(201, 201, 201);
+    background: rgb(0, 0, 0);
     text-align: center;
     font-size: 16px;
     max-width: auto;
     border: 1px solid #ccc;
     flex-wrap: wrap;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    
 }
 
 .return {
@@ -40,9 +46,9 @@ body {
 .menu {
     justify-content: right;
     text-align: right;
-    margin: 10px 7px 0 600px;
-    background: rgb(200, 200, 200);
-    color: blue;
+    margin: 0 0 0 600px;
+    background: rgb(8, 8, 8);
+    color: rgb(250, 250, 250);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

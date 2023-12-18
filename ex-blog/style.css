@@ -4,14 +4,10 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
     padding: 10px;
     background: rgb(0, 0, 0);
-    text-align: center;
     font-size: 16px;
-    max-width: auto;
-    border: 1px solid #ccc;
-    flex-wrap: wrap;
+    border: 1px solid #4a2a2a
 }
 
 .logo {
@@ -20,34 +16,21 @@ body {
     
 }
 
-.return {
-    background: rgb(200, 200, 200);
-    text-align: center;
-    font-size: 16px;
-    margin: 10px 0 0 0;
-    justify-content: space-between;
-    flex: 0;
-}
 
 .title-blog {
     justify-content: center;
-    text-align: center;
     margin-top: 5px;
     padding-right: 100px;
     padding-top: 150px;
     height: 185px;
-    flex: 1;
-    color: #000000;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 40px;
     background-image: url("entre-fort.jpg");
 }
 
 .menu {
-    justify-content: right;
-    text-align: right;
-    margin: 0 0 0 600px;
-    background: rgb(8, 8, 8);
+    position: fixed;
+    margin-left: 600px;
+    align-self: center;
+    background: rgb(0, 0, 0);
     color: rgb(250, 250, 250);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }

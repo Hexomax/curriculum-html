@@ -44,26 +44,32 @@ body {
     color: rgb(255, 148, 60);
 }
 
+.feet {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .contact {
     background: #d34343;
     text-align: center;
-    flex-direction: row;
-    position: absolute;
-    bottom: 0;
+    border: 2px solid beige;
 
 }
 
-
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
 .link-article {
-    display: flex;
     background: #d34343;
-    width: auto;
-    padding: 20px 0px 20px 100px;
-    margin-top: 20px;
+    padding: 20px;
+    margin: 20px;
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 
 }
 

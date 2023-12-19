@@ -24,13 +24,29 @@ body {
 
 
 .title-blog {
-    justify-content: center;
-    margin: 5px;
-    padding-right: 100px;
-    padding-top: 150px;
-    height: 195px;
-    background-image: url("entre-fort.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    height: 450px;
+    margin-top: 5px;
     border: 2px solid #d34343;
+    background-image: url(legion-first-1200-840.jpg);
+    background-position: top left bottom;
+    text-align: center;
+    font-size: 80px;
+    color: #4848fd;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: centre;
+    align-items: centre;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 70px;
+    color: #ed2424;
 }
 
 .menu {
@@ -47,6 +63,7 @@ body {
 .feet {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     
 }
 

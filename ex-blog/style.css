@@ -102,3 +102,37 @@ body {
 .article01:hover {
     color: rgb(241, 241, 241);
 }
+
+.title-about{
+    color: beige;
+    text-align: center;
+
+}
+
+.img-profil {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 2px;
+    clip-path: circle(85px);
+}
+
+.intro-about {
+    color: beige;
+    text-align: justify;
+    border: 2px solid #b5b5b5;
+    margin: 5px;
+    padding: 5px;
+}
+
+.contact-about {
+    color: beige;
+    text-align: center;
+
+}
+
+.list {
+    color: beige;
+    text-decoration: none;
+    
+}

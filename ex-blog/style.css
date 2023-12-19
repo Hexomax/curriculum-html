@@ -56,6 +56,10 @@ body {
     border: 2px solid red;
 }
 
+.about{
+    color: antiquewhite;
+}
+
 .menu:hover{
     color: rgb(255, 148, 60);
 }
@@ -90,11 +94,11 @@ body {
 
 }
 
-a {
+.article01 {
     color: #000000;
     text-decoration: none;
 }
 
-a:hover {
-    color: blue;
+.article01:hover {
+    color: rgb(241, 241, 241);
 }

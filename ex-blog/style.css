@@ -97,7 +97,7 @@ body {
 }
 
 .title-about{
-    color: beige;
+    color: rgb(0, 0, 0);
     text-align: center;
 
 }
@@ -111,21 +111,21 @@ body {
 }
 
 .intro-about {
-    color: beige;
+    color: rgb(0, 0, 0);
     text-align: justify;
-    border: 2px solid #b5b5b5;
+    border: 2px solid #626262;
     margin: 5px;
     padding: 5px;
 }
 
 .contact-about {
-    color: beige;
+    color: rgb(0, 0, 0);
     text-align: center;
 
 }
 
 .list {
-    color: beige;
+    color: rgb(12, 12, 12);
     text-decoration: none;
     
 }

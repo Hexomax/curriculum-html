@@ -8,12 +8,6 @@ body {
     justify-content: space-between;
     padding: 10px;
     background: #d3d1d1;
-    font-size: 16px;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;    
 }
 
 .img-logo {
@@ -45,8 +39,10 @@ body {
 }
 
 .menu {
+
     background: #bcbcbc;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .about{

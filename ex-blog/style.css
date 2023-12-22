@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;900&family=Oswald:wght@300;400;600&family=Roboto:wght@400;500&family=Ubuntu:wght@400;500&display=swap');
+
 body {
     background: #bcbcbc;
 }
@@ -24,7 +26,8 @@ body {
     height: 450px;
     background-image: url(image-background-blog/pex-1000.jpg);
     font-size: 80px;
-    opacity: 0.7;
+    font-family: 'Lato', sans-serif;
+
 }
 
 .title {
@@ -35,7 +38,7 @@ body {
     text-align: center;
     margin-top: 100px;
     font-size: 70px;
-    color: #00b238;
+    color: #1500ff;
 }
 
 .menu {

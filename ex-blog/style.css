@@ -7,7 +7,11 @@ body {
 * {
     margin: 0;
     padding: 0;
+}
 
+.flux {
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .container {
@@ -18,7 +22,8 @@ body {
     padding: 10px;
     background: #d3d1d1;
     position: fixed;
-    width: 100vw;
+    width: -moz-available;
+    margin-right: inherit;
 }
 
 .img-logo {
@@ -31,10 +36,8 @@ body {
 
     background: #bcbcbc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 13vw;
     height: 5vh;
     text-align: center;
-    margin-right: 20px;
     border-radius: 20px;
 
 }
@@ -61,7 +64,6 @@ body {
 .title-blog {
     display: flex;
     flex-direction: column;
-    fl
     width: auto;
     height: 500px;
     margin: 0 20px;
@@ -71,8 +73,8 @@ body {
     opacity: 0.5;
     display: flex;
     flex-direction: column;
-    width: auto;
-    height: 450px;
+    width: -moz-available;
+    height: 420px;
     margin-top: 90px;
     position: relative;
 

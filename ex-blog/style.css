@@ -27,7 +27,7 @@ body {
 }
 
 .img-logo {
-    width: 100px;
+    width: auto;
     border: 2px solid red;
 }
 
@@ -36,7 +36,7 @@ body {
 
     background: #bcbcbc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 5vh;
+    height: auto;
     text-align: center;
     border-radius: 20px;
 
@@ -65,7 +65,6 @@ body {
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 500px;
     margin: 0 20px;
 }
 
@@ -90,7 +89,7 @@ body {
     width: auto;
     height: 400px;
     font-size: 70px;
-    margin-left: 30px;
+    margin: 0 150px;
     color: #005398;
 }
 
@@ -98,7 +97,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin: 10px 20px;
+    height: 20px;
+    margin-top: 10px;
+    
     
     
 }
@@ -116,7 +117,7 @@ body {
     justify-content: flex-start;
     height: 80vh;
     background: #e8e8e8;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .link-article {

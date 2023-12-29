@@ -67,6 +67,10 @@ body {
     flex-direction: column;
     width: auto;
     margin: 0 20px;
+    text-align: center;
+    color: #000000;
+    position: static;
+    
 }
 
 .bk-image {
@@ -81,17 +85,7 @@ body {
 }
 
 .title {
-    position: absolute;
-    top: 200px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    width: auto;
-    height: 400px;
-    font-size: 70px;
-    margin: 0 150px;
-    color: #005398;
+    
 }
 
 .feet {
@@ -131,13 +125,13 @@ body {
 
 }
 
-.article01 {
+.article0 {
     color: #000000;
     text-decoration: none;
 }
 
-.article01:hover {
-    color: rgb(241, 241, 241);
+.article0:hover {
+    color: rgb(136, 135, 135);
 }
 
 .title-about{

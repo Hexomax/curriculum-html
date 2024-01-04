@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;900&family=Oswald:wght@300;400;600&family=Roboto:wght@400;500&family=Ubuntu:wght@400;500&display=swap');
 
 body {
-    background: #bcbcbc;
+    background: #fffffe;
 }
 
 * {
@@ -10,8 +10,8 @@ body {
 }
 
 .flux {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .container {
@@ -20,8 +20,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background: #d3d1d1;
-    position: fixed;
+    background: transparent;
+    position: sticky;
     width: -moz-available;
     margin-right: inherit;
 
@@ -35,12 +35,14 @@ body {
 
 .menu {
 
-    background: #bcbcbc;
+    background: #F0E3E7;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: auto;
     text-align: center;
     border-radius: 20px;
-
+}
+.menu:hover {
+    background: #c2b9bc;
 }
 
 .text-about {
@@ -69,17 +71,16 @@ body {
     margin: 0 20px;
     text-align: center;
     color: #000000;
-    position: static;
+    box-sizing: border-box;
     
 }
 
 .bk-image {
-    opacity: 0.5;
+    opacity: 0.7;
     display: flex;
     flex-direction: column;
-    width: -moz-available;
+    max-width: 1264px;
     height: 420px;
-    margin-top: 90px;
     position: relative;
 
 }
@@ -125,7 +126,7 @@ body {
 }
 
 .article0 {
-    color: #000000;
+    color: #212529;
     text-decoration: none;
 }
 
@@ -134,7 +135,7 @@ body {
 }
 
 .title-about{
-    color: rgb(0, 0, 0);
+    color: #212529;
     text-align: center;
 
 }
@@ -156,7 +157,7 @@ body {
 }
 
 .contact-about {
-    color: rgb(0, 0, 0);
+    color:#212529;
     text-align: center;
 
 }
